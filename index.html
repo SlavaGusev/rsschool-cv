@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body class="main-flex">
+    <header class="header">
+        <h1>Viachaslau Huseu</h1>
+        <h2>Front-End Developer</h2>
+    </header>
+    <nav class="navigation">
+            <div class="navigation-element"><a href="#Obj" class="navigation-link">Objective</a></div>
+            <div class="navigation-element"><a href="#Ed" class="navigation-link">Education</a></div>
+            <div class="navigation-element"><a href="#Qual" class="navigation-link">Qualifications</a></div>
+            <div class="navigation-element"><a href="#Code" class="navigation-link">Code&nbsp;example</a></div>
+            <div class="navigation-element"><a href="#Work" class="navigation-link">Work&nbsp;experience</a></div>
+            <div class="navigation-element"><a href="#Lang" class="navigation-link">Language&nbsp;skills</a></div>
+    </nav>
+    <div class="content">
+        <aside class="contacts">
+            <h2>PERSONAL INFORMATION</h2>
+            <div>
+                <img class="class-photo" alt="MyPicture" src="images/photo.png">
+            </div>
+            <ul>
+                <li>Email : <a href="mailto:guseff.slawa84@gmail.com">guseff.slawa84@gmail.com</a></li>
+                <li>Location : Grodno, Belarus</li>
+                <li>Skype : <a href="skype:gusevvb1?chat">gusevvb1</a></li>
+                <li>Discord : SlavaGusev</li>
+                <li>Medium : <a href="https://medium.com/@guseff.slawa84">guseff.slawa84</a></li>
+            </ul>
+        </aside>
+        <main class="info-content">
+            <section>
+                <h2 id="Obj">OBJECTIVE</h2>
+                <p>Become Junior QA Ingineer, Junior QA Automation Ingineer</p>
+            </section>
+            <section>
+                <h2 id="Ed">EDUCATION</h2>
+                <p>Grodno Technological College 2000-2004</p>
+                <p>Grodno State Univercity 2004-2006 not finished</p>
+            </section>
+            <section>
+                <h2>TRAINING PROJECT</h2>
+                <p><a href="URL">CV PROJECT</a></p>
+            </section>
+            <section>
+                <h2 id="Qual">QUALIFICATIONS</h2>
+                <ul>
+                    <li>HTML5, CSS3</li>
+                    <li>Javascript</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                </ul>
+                <h3>Courses</h3>
+                <ul>
+                    <li>Functional Software Testing by IT Academy (ongoing)</li>
+                    <li>JavaScript/Front-end. Stage 0 by RS School</li>
+                </ul>
+                <h3>Epam Courses</h3>
+                <ul>
+                    <li>Software Testing Introduction (RUS)</li>
+                    <li>Relational Databases Basics (RUS)</li>
+                    <li>Version Control with Git</li>
+                </ul>
+            </section>
+            <section>
+                <h2 id="Code">CODE EXAMPLE</h2>
+                <pre>
+                    <code>
+        var countBits = function(n) {
+            let count = 0;
+            while (n > 0) {
+                let str = n.toString(2);
+                if (str[str.length - 1] == 1) {
+                    count++;
+                }
+                n = n >>> 1;
+            }
+            return count;
+        };
+                    </code>
+                </pre>
+            </section>
+            <section>
+                <h2 id="Work">WORK EXPERIENCE</h2>
+                <p>2007 – until now – City Polyclinic №6 of Grodno – 15 years’ experience as System Administrator, administering Windows Server, databases 4Dimention, MySQL, Microsoft SQL Server, managing local networks, solving different kinds of user problems.</p>
+            </section>
+            <section>
+                <h2 id="Lang">LANGUAGE SKILLS</h2>
+                <ul>
+                    <li><a href="https://www.efset.org/cert/zrFVuz">English C2 EF SET Sertificate</a></li>
+                    <li>French A1</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div>
+            <a href="https://github.com/SlavaGusev" target="_blank"><img class="logo-image" alt="MyGitHub" src="images/github_logo.png"></a>
+        </div>
+        <div class="footer-year">
+            <p>2022</p>
+        </div>
+        <div>
+            <a href="https://rs.school/js/" target="_blank"><img class="logo-image" alt="RsSchool_Logo" src="images/logo-rsschool3.png"></a>
+        </div>
+    </footer>
+</body>
+</html>
