@@ -41,9 +41,6 @@ Grodno State Univercity 2004-2006 not finished
 2007 – until now – City Polyclinic №6 of Grodno – 15 years’ experience as System Administrator, 
 administering Windows Server, databases 4Dimention, MySQL, Microsoft SQL Server, managing local 
 networks, solving different kinds of user problems.
-# PERSONAL QUALITIES
-*  Reliability
-*  Resposability
 
 # LANGUAGE SKILLS
 
