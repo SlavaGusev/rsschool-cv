@@ -17,6 +17,9 @@ Grodno State Univercity 2004-2006 not finished
 * SQL 
 * HTML 
 * CSS
+#### Courses
+* Functional Software Testing by IT Academy (ongoing) 
+* JavaScript/Front-end. Stage 0 by RS School  
 #### Epam Courses 
 * Software Testing Introduction (RUS)
 * Relational Databases Basics (RUS)
