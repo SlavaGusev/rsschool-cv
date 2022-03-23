@@ -1,5 +1,3 @@
-[rsschool-cv](https://github.com/SlavaGusev/rsschool-cv/blob/gh-pages/cv.md)
-******
 # PERSONAL INFORMATION
 * Name : Huseu Viachaslau
 * Email : guseff.slawa84@gmail.com
