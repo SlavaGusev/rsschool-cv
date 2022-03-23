@@ -47,7 +47,7 @@ networks, solving different kinds of user problems.
 
 # LANGUAGE SKILLS
 
-* English B2 (C1 on Epam Test)
+* English C2 [EF SET Certificate](https://www.efset.org/cert/zrFVuz)
 * French A1
 ********
 ![RSSchool](https://app.rs.school/static/images/logo-rsschool3.png)
