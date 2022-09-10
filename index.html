@@ -74,12 +74,12 @@
                     <code>
         var countBits = function(n) {
             let count = 0;
-            while (n > 0) {
+            while (n &gt; 0) {
                 let str = n.toString(2);
                 if (str[str.length - 1] == 1) {
                     count++;
                 }
-                n = n >>> 1;
+                n = n &gt;&gt;&gt; 1;
             }
             return count;
         };
