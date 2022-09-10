@@ -1,4 +1,3 @@
-
 p,
 ul,
 code { 
@@ -25,7 +24,6 @@ h2 {
 
 .header {
     background-color: green;    
-    /* height: 20%; */
     text-align: center;
 }
 
@@ -38,23 +36,16 @@ h2 {
 
 .navigation {
     background-color: rgb(228, 115, 115);
-    /* text-align: right; */
     padding: 1% 10%;
     display: flex;
     flex-direction: row;  
     justify-content: space-around;  
     flex-wrap: wrap;
 	font: bold 25px Verdana, sans-serif;
-    /* flex-grow: 3; */
-    /* min-height: 200px; */
-    /* line-height: 60px; */
 }
 
 .navigation-element {
     padding: 0px 20px;
-    /* border: 10px black; */
-    /* width: 300px; */
-    /* flex: 1; */
 }
 
 .navigation-link {
@@ -73,31 +64,17 @@ h2 {
 }
 
 .contacts {
-    /* float: left; */
     background-color: aqua;   
     padding: 1% 3%;
     flex: 1;
-    /* flex-grow: 4; */
-    /* flex-shrink: 10; */
 }
 
 .info-content {
-    /* float: right; */
     background-color: #FFFAE3;
     padding: 1% 3%;
-    /* flex-grow: 6; */
-    /* flex-shrink: 2;  */
     flex: 2.5;
     text-align: left;
 }
-
-.content-element {
-
-}
-
-/* .footer-image { 
-    float : right; 
-} */
 
 .footer-year {
     flex-grow: 4;
